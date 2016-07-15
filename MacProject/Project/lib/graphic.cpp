@@ -5,7 +5,7 @@
 #include <GLFW/glfw3.h>
 
 
-void drawPoint(float x, float y, float size, bool smooth, const Color& color) {
+void drawPoint(float x, float y, float size, const Color& color) {
   // 点を描画する位置を指定
   GLfloat vtx[] = { x, y };
   
